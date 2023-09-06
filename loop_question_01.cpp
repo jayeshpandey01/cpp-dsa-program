@@ -259,3 +259,61 @@
 //         cout<<i<<" ";
 //     }
 // }
+
+// do while loop
+// #include <iostream> 
+// using namespace std;
+// int main() {
+//     int i =1;
+//     do
+//     {
+//         cout<<i<<endl;
+//         i++;
+//     } while (i<=10);
+// }
+
+// infinite loop
+// #include <iostream>
+// using namespace std;
+// int main() {
+//   int i;
+//   while(i=10){
+//   cout<<i>>endl;
+//   }
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     while ('a'<'b')
+//     {
+//         cout<<"mam is a palindrome"<<endl;
+//     }
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int x = 4,y=0;
+//     x--;
+//     y++;
+//     if (x==y) continue; // The code you provided contains a syntax error because the continue statement is not allowed outside of loops in C++. The continue statement is used to skip the rest of the current iteration of a loop and continue with the next iteration. It cannot be used in a standalone if statement like you have attempted.
+//     else cout<<x<<" "<<y;
+// }
+
+// It is also show syntax error
+#include <iostream>
+using namespace std;
+int main() {
+    int x =4,y=0;
+    while (x>=0)
+    x--;
+    y++;
+    if (x==y)
+    {
+        continue;
+    } else
+    {
+        cout<<x<<" "<<y<<endl;
+    }
+}
