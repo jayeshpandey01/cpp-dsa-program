@@ -48,3 +48,23 @@ int main() {
         cout<<arr[i]<<endl;
     }
 }
+
+
+/*
+Swap array
+*/
+#include <iostream>
+using namespace std;
+int main() {
+    int number[] = {10,20,30,40,50};
+    int count_number = (end(number)- begin(number));
+    int temp_number[count_number];
+    int j = count_number;
+    for(int i = 0; i < count_number; i++){
+        temp_number[j] = number[i];
+        j--;
+    }
+    for(int i = 0; i < count_number; i++) {
+        cout<<temp_number[i]<<endl;
+    }
+}
